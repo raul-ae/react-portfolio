@@ -5,7 +5,7 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import yo from "./images/yo.png"
 
-function Home() {
+function About() {
   return (
     <div>
       <Container style={{ marginTop: 30}}>
@@ -45,4 +45,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;

@@ -13,11 +13,10 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/about" component={About} />
-          <Route component={Home} />
+          <Route path="/" component={Home} />
+          <Route path="/home" component={Home} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/about" component={About} />
         </Wrapper>
         <Footer />
       </div>
