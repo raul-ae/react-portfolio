@@ -13,7 +13,6 @@ function Footer() {
       <div class="row">
       <p></p>
       </div>
-      
         <div class="row">
           <div class="col-8">
             <h5>follow me on social media</h5>
